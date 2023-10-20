@@ -1,76 +1,54 @@
-.blog3__post__item {
-    position: relative;
-    margin-bottom: 20px;
-    overflow: hidden;
-    &__img {
-        // z-index: 99;
+
+.blogv3 {
+    padding: 80px 0;
+    .mb-4 {
+        margin-bottom: 20px;
+    }
+    &__item {
         position: relative;
-    }
-    &__content {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        background-color: #f0db7fff;
-        color:#fff;
-        padding: 30px;
-        text-align: left;
+        overflow: hidden;
+        img {
         transition: all 0.5s;
-        transform: translateY(100%);
-    }
-    // &__content::after {
-    //     content: '';
-    //     width: 100%;
-    //     height: 0;
-    //     position: absolute;
-    //     opacity: 0;
-    //     transition: 0.3s;
-    //     left: 0;
-    //     bottom: 0;
-    // }
-    &:hover {
-        .blog3__post__item__content {
-            opacity: 1;
-            transform: translateY(0);
         }
-    }
-    &__category {
-        margin-bottom: 15px;
-        justify-content: flex-start;
-        a {
-            font-size: 14px;
-            color: #2f2f2f;
-            text-decoration: none;
-            font-weight: 400;
+        &__content {
+            padding: 20px;
+            background-color: antiquewhite;
+            opacity: 0;
+            transform: translateY(100%);
+            position: absolute;
+            top: auto;
+            transition: all 0.5s;
+            h3 {
+                margin: 0;
+            }
         }
-    }
-    &__title {
-        line-height: 28px;
-        color: #2f2f2f;
-        margin-bottom: 15px;
-        font-size: 19px;
-        font-weight: 700;
-        text-decoration: none;
-        h3 {
-            text-decoration: none;
+        &:hover {
+            img {
+                transform: translateY(-50px);
+            }
+            .blogv3__item__content {
+                opacity: 1;
+                transform: translateY(0);
+                bottom: 0;
+            }
         }
-    }
-    &__date {
-        span {
-            color: #2f2f2f;
-            font-size: 16px;
-            font-weight: 400;
+        &__category {
+            ul {
+                padding: 0;
+                margin: 0;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
         }
-        a {
-            border: 1px solid #2f2f2fff;
-            background-color: #2f2f2fff;
-            color: #fff;
-            padding: 6px 16px;
-            font-size: 14px;
-            text-decoration: none;
-            border-radius: 20px;
-            margin-left: 120px;
+        &__archive {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
+        
     }
 }
