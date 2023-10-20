@@ -4,7 +4,7 @@
 }
 .blog2__item {
   position: relative;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   &__img {
     position: relative;
     transition: all 0.5s;
@@ -20,6 +20,7 @@
   &__content {
     position: absolute;
     right: 0;
+    top: 0;
     bottom: 0;
     background-color: #41CB8C !important;
     padding: 20px;
@@ -58,7 +59,6 @@
       font-size: 14px;
       color: #fff;
       text-decoration: none;
-      margin-left: 80px;
       border-radius: 20px;
       transition: 0.3s;
     }
@@ -66,6 +66,11 @@
       background: #fff;
       color: #e77459ff;
     }
+  }
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
   }
 }
 .carusel3 {
@@ -76,4 +81,7 @@
       justify-content: flex-end;
     }
   }
+}
+.carusel3 .amySwiper {
+  padding-bottom: 50px;
 }

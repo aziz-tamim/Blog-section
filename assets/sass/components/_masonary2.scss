@@ -1,7 +1,7 @@
 .masonary-v2__post__item {
 
     position: relative;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     &__img {
         position: relative;
         z-index: 999;
@@ -32,7 +32,7 @@
             text-align: center;
             transition: 0.3s;
             &:hover {
-                background-color: #191970;
+                background-color: rgb(88, 88, 229) !important;
             }
         }
     } 
@@ -57,18 +57,19 @@
             border-radius: 50px;
             font-size: 14px;
             transition: 0.3s;
-            margin-left: 60px;
             &:hover {
-                background-color: #191970ff;
-                border: 1px solid #191970ff;
+                background-color: rgb(88, 88, 229) !important;
+                border: 1px solid rgb(88, 88, 229) !important;
             }
         }
     }
 }
-.masonary-v2__post__item:hover .masonary-v2__post__item__img {
-    transform: translateY(-50%);
+// .masonary-v2__post__item:hover .masonary-v2__post__item__img {
+//     transform: translateY(-50%);
+// }
+.masonary-v2__post__item:hover .masonary-v2__post__item__img{
+    transform: translateY(-200px);
 }
-
 
 .pagination {
     text-align: center;
@@ -104,3 +105,8 @@
     margin-top: -150px;
 }
 
+.masonary-v2__post__item__date {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
