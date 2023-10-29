@@ -11,9 +11,10 @@
                 z-index: 999;
                 width: 100%;
                 transition: all 0.5s;
+                margin-bottom: -6px;
             }
             &:hover img {
-                transform: translateY(-60px) scale(0.5);
+                transform: translateY(-40px) scale(0.5);
             }
     
         &__content {
