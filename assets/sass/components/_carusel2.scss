@@ -56,6 +56,8 @@
         }
     }
     &__date {
+        display: flex;
+        justify-content: space-between;
         span {
             color: #2f2f2f;
             font-size: 16px;

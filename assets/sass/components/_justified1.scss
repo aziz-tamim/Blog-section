@@ -1,12 +1,15 @@
+.masonary {
+}
 .masonary-v2__post__item {
-
     position: relative;
+    margin-bottom: 20px;
     &__i {
         position: relative;
         z-index: 999;
         transition: 0.4s;
     }
     &__conten {
+        margin-bottom: 10px;
         height: 155px;
         position: absolute;
         bottom: 0;
@@ -67,7 +70,7 @@
     }
 }
 .masonary-v2__post__item:hover .masonary-v2__post__item__i {
-    transform: translateY(-50%);
+    transform: translateY(-48%);
 }
 
 
@@ -76,7 +79,6 @@
     a {
         padding: 8px 16px;
         text-decoration: none;
-        // background: #222;
         border: 1px solid #222;
         color: #222;
         margin-right: 5px;

@@ -26,7 +26,7 @@ $(document).ready(function () {
             nav:false
         },
         600:{
-            items:3,
+            items:2,
             nav:false
         },
         1000:{
@@ -45,6 +45,19 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  breakpoints: {  
+    '1024': {
+      slidesPerView: 3,
+      spaceBetween: 20,
+  },
+    '667': {
+        slidesPerView: 2,
+        spaceBetween: 20,
+    },
+    '480': {
+      slidesPerView: 1,
+      spaceBetween: 20,},
+  },
 });
 
 var swiper = new Swiper(".amySwiper", {
@@ -58,6 +71,19 @@ var swiper = new Swiper(".amySwiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  breakpoints: {  
+    '1024': {
+      slidesPerView: 3,
+      spaceBetween: 20,
+  },
+    '667': {
+        slidesPerView: 2,
+        spaceBetween: 20,
+    },
+    '480': {
+      slidesPerView: 1,
+      spaceBetween: 20,},
   },
 });
 

@@ -82,6 +82,24 @@
 .blog__post__item:hover .blog__post__item__content {
     visibility: visible;
 }
+.pagina {
+    padding: 30px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    a {
+        color: #fff !important;   
+        background: #481bae;
+        padding: 6px 15px;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: none;
+    }
+}
 
 @media only screen and (max-width: 1199px) {
     .display-flex {
