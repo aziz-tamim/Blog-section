@@ -4,7 +4,7 @@ $(document).ready(function () {
     percentPosition: true,
     masonry: {
       // use outer width of grid-sizer for columnWidth
-      columnWidth: 3,
+      columnWidth: 4,
     },
   });
   var $grid = $(".portfolio-act").isotope({
@@ -12,7 +12,7 @@ $(document).ready(function () {
     percentPosition: true,
     masonry: {
       // use outer width of grid-sizer for columnWidth
-      columnWidth: 2,
+      columnWidth: 3,
     },
   });
 

@@ -10,7 +10,7 @@
     }
     &__conten {
         margin-bottom: 10px;
-        height: 155px;
+        height: auto;
         position: absolute;
         bottom: 0;
         top: auto;
@@ -106,4 +106,19 @@
 .pagi {
     margin-top: -150px;
 }
-
+    @media only screen and (max-width: 1199px) {
+    .justi {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+   }
+   @media only screen and (max-width: 767px) {
+     .justi {
+        grid-template-columns: 1fr 1fr;
+     }
+   }
+   @media only screen and (max-width: 556px) {
+     .justi {
+        grid-template-columns: 1fr;
+     }
+   }
