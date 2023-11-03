@@ -82,3 +82,21 @@
 .blog__post__item:hover .blog__post__item__content {
     visibility: visible;
 }
+
+@media only screen and (max-width: 1199px) {
+    .display-flex {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+     }
+   }
+   
+   @media only screen and (max-width: 897px) {
+     .display-flex {
+         grid-template-columns: 1fr 1fr;
+     }
+   }
+   @media only screen and (max-width: 656px) {
+     .display-flex {
+         grid-template-columns: 1fr;
+     }
+   }

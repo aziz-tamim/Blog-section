@@ -5,7 +5,6 @@
 .blog2 {
     .blog2__item {
         position: relative;
-        // margin-bottom: 20px;
             img {
                 transition: all 0.5s;
                 z-index: 999;
@@ -58,7 +57,6 @@
                 font-size: 14px;
                 color: #fff;
                 text-decoration: none;
-                // margin-left: 60px;
                 border-radius: 20px;
                 transition: 0.3s;
             }
@@ -71,3 +69,21 @@
     }
     
 }
+
+@media only screen and (max-width: 1199px) {
+    .d-flex {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+   }
+   
+   @media only screen and (max-width: 897px) {
+     .d-flex {
+         grid-template-columns: 1fr 1fr;
+     }
+   }
+   @media only screen and (max-width: 556px) {
+     .d-flex {
+         grid-template-columns: 1fr;
+     }
+   }
