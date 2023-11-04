@@ -57,6 +57,9 @@ var swiper = new Swiper(".mySwiper", {
     '480': {
       slidesPerView: 1,
       spaceBetween: 20,},
+    '0': {
+      slidesPerView: 1,
+      spaceBetween: 20,},
   },
 });
 
@@ -84,8 +87,9 @@ var swiper = new Swiper(".amySwiper", {
     '480': {
       slidesPerView: 1,
       spaceBetween: 20,},
+    '0': {
+      slidesPerView: 1,
+      spaceBetween: 20,},
   },
 });
-
-
 });
